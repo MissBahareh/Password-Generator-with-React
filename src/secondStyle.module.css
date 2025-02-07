@@ -1,0 +1,99 @@
+.card {
+  border: 1px solid #742f44;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.controlPs {
+  /* background-color: aqua; */
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+}
+.controlPsp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 25%;
+  font-size: 18px;
+  color: white;
+  margin: 1px 0;
+  padding: 0 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.divInput {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  background-color: #411d27;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.input {
+  display: flex;
+  width: 80%;
+  background-color: #411d27;
+  border: none;
+  color: white;
+  height: 5vh;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-family: "Lora";
+  letter-spacing: 2px;
+}
+.divInputSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+  font-size: 10px;
+}
+.h1 {
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.divInputbtn {
+  fill: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.divInputbtn:hover {
+  fill: #ff6a99;
+}
+.divInputType {
+  width: 15%;
+  height: 100%;
+  border: 0;
+  color: white;
+  background-color: #411d27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.btnGenerate {
+  width: 50%;
+  height: 5vh;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #411d27;
+  color: white;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: ZillaSlab Lora;
+  src: url(../src/assets/font/ZillaSlab-Medium.ttf);
+  src: url(../src/assets/font/ZillaSlab-Light.ttf);
+  src: url(../src/assets/font/Lora-VariableFont_wght.ttf);
+}
+* {
+  font-family: ZillaSlab;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #9b415d;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+#root {
+  margin: auto;
+  background-color: #742f44;
+  border-radius: 10px;
+}
